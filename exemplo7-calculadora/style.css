@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: 0;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(217deg, rgba(255,0,0,0.7), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,0.7), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,0.7), rgba(0,0,255,0) 70.71%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    min-width: 200px;
+    min-height: 400px;
+    width: 30vw;
+    height: 60vh;
+    padding: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black;
+}
+h1{
+    font-size: 6vmin;
+}
+input{
+    width: 80%;
+    height: 5%;
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 0 5px;
+    font-size: 2.8vmin;
+}
+button{
+    width: 70%;
+    height: 5%;
+    border: 2px black solid;
+    border-radius: 5px;
+    font-size: 2.8vmin;
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+}
+#mais{
+    background-color: greenyellow;
+}
+#menos{
+    background-color: red;
+}
+#vezes{
+    background-color: blue;
+}
+#dividir{
+    background-color: yellow;
+}
+p{
+    width: 80%;
+    height: 5%;
+    background-color: whitesmoke;
+    border: 2px black solid;
+    border-radius: 5px;
+    font-size: 2.8vmin;
+    text-align: center;
+    align-content: center;
+}
