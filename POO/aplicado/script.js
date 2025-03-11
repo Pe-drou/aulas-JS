@@ -15,22 +15,38 @@ class diretor{
     }
     apresentar=()=>{
         document.getElementById('tequisto').innerText = `Sou o(a) diretor(a) do hospital, meu nome é ${this.nome} e minhas permissões são privadas`
+        console.log(this.nome, `Permissão: ${this.#permissao}`)
     }
 }
 class doutor extends funcionario{
-    apresentar=()=>document.getElementById('tequisto').innerText = `Sou o(a) doutor(a) ${this.nome}, meu identificador é ${this.id}.`
+    apresentar=()=>{
+        document.getElementById('tequisto').innerText = `Sou o(a) doutor(a) ${this.nome}, meu identificador é ${this.id}.`
+        console.log(this.nome, this.id)
+    }
 }
 class cirurgia extends funcionario{
-    apresentar=()=>document.getElementById('tequisto').innerText = `Sou o(a) cirurgião(ã) ${this.nome} e meu identificador é ${this.id}.`
+    apresentar=()=>{
+        document.getElementById('tequisto').innerText = `Sou o(a) cirurgião(ã) ${this.nome} e meu identificador é ${this.id}.`
+        console.log(this.nome, this.id)
+    }
 }
 class enfermagem extends funcionario{
-    apresentar=()=>document.getElementById('tequisto').innerText = `Sou o(a) enfermeiro(a) ${this.nome}, meu identificador é ${this.id}.`
+    apresentar=()=>{
+        document.getElementById('tequisto').innerText = `Sou o(a) enfermeiro(a) ${this.nome}, meu identificador é ${this.id}.`
+        console.log(this.nome, this.id)
+    }
 }
 class limpeza extends funcionario{
-    apresentar=()=>document.getElementById('tequisto').innerText = `Sou o(a) zelador(a) ${this.nome}, identificador ${this.id}.`
+    apresentar=()=>{
+        document.getElementById('tequisto').innerText = `Sou o(a) zelador(a) ${this.nome}, identificador ${this.id}.`
+        console.log(this.nome, this.id)
+    }
 }
 class recepcao extends funcionario{
-    apresentar=()=>document.getElementById('tequisto').innerText = `Sou o(a) recepcionista ${this.nome}, o meu identificador é ${this.id}.`
+    apresentar=()=>{
+        document.getElementById('tequisto').innerText = `Sou o(a) recepcionista ${this.nome}, o meu identificador é ${this.id}.`
+        console.log(this.nome, this.id)
+    }
 }
 
 const joao = new doutor("João", 29382)
